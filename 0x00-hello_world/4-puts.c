@@ -1,7 +1,11 @@
 #include<stdio.h>/*processor dirctive*/
-int main(void)/*main function*/
+/**
+* main - Entry
+* Return: 0
+**/
+int main(void)
 {
 	puts("Programming is like building a multilingual puzzle/n");
-	/*using puts to print*/
+		/*puts pronts the program*/
 		return (0);
 }
