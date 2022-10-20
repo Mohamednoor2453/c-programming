@@ -1,21 +1,25 @@
 #include<stdio.h>
 /**
-* main - print combinatiom
-* Return: 0
-*/
+ * main - Entry point
+ * Description: print 0, 1, - 9
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n;
+	int digit = 0;
 
-	for (n = 48; n <= 58; n++)
+	while (digit <= 9)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(digit + 48);
+
+		if (digit != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		putchar ('\n');
-		return (0);
+		++digit;
 	}
+	putchar('\n');
+
+	return (0);
 }
