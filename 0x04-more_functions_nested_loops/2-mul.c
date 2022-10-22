@@ -3,8 +3,8 @@
 /**
  * mul -multiply two integers
  * @a: first int
- *@b: second int
- * Return: the multiplication of a and b
+ * @b: second int
+ * Return: return results
  */
 int mul(int a, int b)
 {
