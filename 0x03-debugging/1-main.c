@@ -1,16 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_numbers - print 0 -9
- *                 only using _putchar twice
- *Return: 0
+ * main - causes an infinite loop
+ * Return: 0
  */
-void print_numbers(void)
-{
-	int num = 0;
 
-	do {
-		_putchar(num + 48);
-		num++;
-	} while (num >= 0 && num <= 9);
-	_putchar('\n');
-}
+int main(void)
+{
+	int i;
+
+	printf("Infinite loop incoming :(\n");
+
+	 i = 0;
+	 /**
+	  * while (i < 10)
+	  * {
+	  * putchar(i);
+	  * }
+	  */
+	 printf("Infinite loop avoided! \\o/\n");
+	 Return(0);
